@@ -20,6 +20,7 @@ class DataItem
 class HashTable
 {
 	public int nElems;
+	public int DataS;
 	private DataItem[] hashArray; // array holds hash table
 	public int arraySize;
 	private DataItem nonItem; // for deleted items
